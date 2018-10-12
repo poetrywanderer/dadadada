@@ -12,7 +12,8 @@
 <p>考虑到原始图片多大，而我们并不关心零件以外的其他信息，因此我们通过人为地设定ROI，尽可能地减小其他多余无用信息，提高特征学习的效率。</p>
 <p>下图为三种典型零件外部缺陷：</p>
 <p><img src="./images/detect.jpg" alt="detect"></p>
-<p>​                                                图1</p>
+<center><strong>图1</strong></center>
+
 <p>缺陷特征：</p>
 <ul>
 <li>缺陷位置：顶部螺纹处、底部孔隙处</li>
@@ -32,7 +33,8 @@
 </li>
 </ul>
 <p><img src="./images/patch.jpg" alt="patch"></p>
-<p>​                                                图2 三种输入数据集</p>
+<center><strong>图2 三种输入数据集</strong></center>
+
 <h4 id="1-2-模型结构及训练日志"><a href="#1-2-模型结构及训练日志" class="headerlink" title="1.2 模型结构及训练日志"></a>1.2 模型结构及训练日志</h4><ul>
 <li><p>模型结构：  刚开始想采用VGG16，但是考虑到此类缺陷特征不是特别复杂，就考虑使用简单点的AlexNet</p>
 </li>
